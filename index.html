@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<form class="book-info">
+		<fieldset>
+			<input type="text" placeholder="Tittle *" name="title" value="Hobbit">
+			<input type="text" placeholder="Author *" name="author" value="J.R.R. Tolkien">
+			<input type="text" placeholder="Pages *" name="pages" value="295">
+			<input type="text" placeholder="Read *" name="read" value="yes">
+		</fieldset>
+		<button class="new-book button-base" type="button">NEW BOOK</button>
+	</form>
+	<table class="books-table">
+		<thead>
+			<tr>
+				<th>Tittle</th>
+				<th>Author</th>
+				<th>Pages</th>
+				<th colspan="3">Read</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="empty">
+				<td colspan="4">Empty</td>
+			</tr>
+		</tbody>
+	</table>
+<script src="main.js"></script>
+</body>
+</html>
